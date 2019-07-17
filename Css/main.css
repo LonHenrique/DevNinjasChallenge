@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.img-logo{
+    height:70px;
+}
+.img-logo-Colorido{
+    height: 150px;
+}
+
+.img-Body-Card{
+    width: 33%;
+    display: flex;
+}
+
+.img-Header-Card{
+    width: 33%;
+    transform: translate(15px, -80px)
+}
+
+.img-content-body{
+    position:absolute;
+    left: 0px;
+    margin-top: 10%;
+    width: 90vh;   
+}
+
+.content-body{
+    position:absolute;
+    left: 0px;
+    margin-top: 45%;    
+    font-size:28px;
+}
+
+.bg-color-one{
+    background-color: #489aff;
+}
+
+.bg-color-form{
+   background-color: #a4cdff; 
+}
+#bg-section-one{
+    background-color: #489aff;
+}
+
+#bg-section-two{
+    background-color: #ffffff;
+}
+
+#bg-color-tree{
+    background-color: #f7f7f7;
+}
+
+#colorBgContent{
+    background-image: url('../mockup/img/bg-home.png');
+    background-size: cover;
+    background-position: center;
+    height: 83vh;
+}
+#imgSectionBodyFive{
+    background-image: url('../mockup/img/breathe-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+#imgSectionBodySix{
+    background-image: url('../mockup/img/breathe-bg-inverted.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#sectionTwo{
+    height: 520px;    
+}
+
+#sectionTree{
+    height: 900px;
+}
+
+#sectionFive{
+    height: 1280px;
+}
+.font-Menu-Color{
+    color: #bfdbff;
+}
+.font-Card-Color{
+    color:#489aff;
+}
+.font-Card-Color-Description{
+    color:#a0a0a0;
+}
+
+.myBtn{
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    padding: 7px;
+    text-align: center;
+    cursor: pointer;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    width: auto;
+    font-size: 16px;
+}
+
+.mySendBtn{
+    border-radius:30px;
+    background-color: #b8d8ff;
+    border:none;
+    padding: 12px;
+    width: auto;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+.myMbSlogan{
+    margin-bottom: 5%;
+}
+
+.myMb{
+    margin-bottom: 3%;
+}
+
+.myMbDesenvolvimento{
+    margin-bottom: 10%;
+}
+
+.myMtSlogan{
+    margin-top: 10%;
+}
+
+.myMtSloganSix{
+    margin-top: 28%;
+}
+
+.myMtForm{
+    margin-top: 4%;
+}
+
+.mtSloganSection{
+    margin-top: 35%;    
+}
+
+.myFontSizeSlogan{
+    font-size: 48px;
+}
+
+.myFontSizeBig{
+    font-size: 60px;
+}
+
+
+.myFontFamily{
+    font-family:'Source Code Pro', monospace; 
+}
+
+.myContainer{   
+    height:auto;
+    width: 100%;
+    align-items: center;    
+    display: flex;    
+    justify-content: space-between;   
+}
+
+.myAlignFlex{
+    flex-direction: column;
+    justify-content: center;    
+}
+.myAlignItems{
+    display: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.myAlignItemsForm{    
+    margin-left: 30%;
+    display: column;
+    justify-content: space-between;
+}
+
+.myContainerForm{   
+    height:160px;
+    width: 100%;
+    border-radius:30px;    
+}
+
+.myLastContainerForm{   
+    height:480px;
+    width: 100%;
+    border-radius:30px;    
+}
+
+.myCard{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 350px;
+    height: 440px;
+    padding: 20px;
+    margin: 15px;      
+}
+
+.myHr{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border: 0;
+    border-top: 4px solid;    
+    width: 60px;
+}    
+
+.myTextArea{
+    border-radius:30px; 
+    width: 95%; 
+    padding:10px; 
+    padding-left: 40px;
+    margin-left:25px;
+    margin-bottom: 2%;
+    padding-left: 25px;
+    border: none;
+}
+
+.myBtnArea{
+    border-radius:30px;
+    padding:10px; 
+    padding-left: 35px;
+    margin-left:18px;
+    margin-bottom: 6%;
+    width: 85%; 
+    border: none;
+
+}
+.textIdeia{
+    text-align: justify;    
+    font-size: 24px;
+    margin-top: -35px;    
+}
+
+.marcador{
+    color: #ffc300;
+}
+
+.colorIdeia{
+    color: #ffc300;
+}
+
+.colorWireFrame{
+    color: #489aff;
+}
+.colorDesign{
+    color: #ff8b40;
+}
+h1{
+    text-align: center;    
+}
+::-webkit-input-placeholder {
+    color: #b8d8ff;
+ }
+.selectOption{
+    color: #b8d8ff;
+}
